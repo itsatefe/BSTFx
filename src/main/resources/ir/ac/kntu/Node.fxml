@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="191.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.ac.kntu.NodeController">
+   <children>
+      <Pane fx:id="pane" prefHeight="191.0" prefWidth="414.0">
+         <children>
+            <TextField fx:id="node" alignment="CENTER_RIGHT" layoutX="135.0" layoutY="41.0" promptText="داده" />
+            <Label layoutX="338.0" layoutY="46.0" prefHeight="21.0" prefWidth="30.0" text="گره" />
+            <Button fx:id="addBtn" layoutX="41.0" layoutY="41.0" mnemonicParsing="false" onAction="#AddNode" text="اضافه" />
+            <Label fx:id="success" layoutX="155.0" layoutY="87.0" text="گره اضافه شد" textFill="LIME" visible="false" />
+            <Label fx:id="error" layoutX="152.0" layoutY="108.0" text="گره اضافه نشد" textFill="RED" visible="false" />
+            <Button fx:id="createBtn" layoutX="182.0" layoutY="146.0" mnemonicParsing="false" onAction="#Create" text="اتمام" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
